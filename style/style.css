@@ -1,0 +1,13 @@
+.page-header{
+    background-color: #222222;
+    padding: 40px 0;
+}
+.banner{
+    background-color: #F1E4E6;
+    padding: 40px 0;
+}
+.center{
+    width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
