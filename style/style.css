@@ -630,3 +630,125 @@ body {
     border: 2px solid #F26376;
     color: #F26376;
   }
+  @media (max-width: 1100px) {
+    .products-list {
+      justify-content: center;
+    }
+    .products-item {
+      margin: 0 1% 2% 1%;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .banner {
+      min-height: 368px;
+      margin: 0 0 20px 0;
+    }
+    .banner-wrp {
+      background-position: bottom left;
+    }
+    .banner-title {
+      max-width: 283px;
+      margin: 0 15px 8px 0;
+      font-size: 44px;
+      line-height: 52.8px;
+    }
+    .banner-subtitle {
+      font-size: 24px;
+      line-height: 28.8px;
+    }
+    .categories {
+      margin: 0 0 154px 0;
+    }
+    .categories .center-block {
+      column-gap: 20px;
+    }
+    .categories-item {
+      min-height: 167px;
+      margin: 0 0 20px 0;
+    }
+    .products {
+      margin: 0 0 65px 0;
+    }
+    .products-txt {
+      margin: 0 0 72px 0;
+    }
+    .products-item {
+      /* margin: 0 8px 16px 8px; */
+    }
+    @media (max-width: 650px) {
+        .banner-wrp {
+          background-position: bottom left -85px;
+          background-size: 60%;
+        }
+      }
+      
+      @media (max-width: 530px) {
+        .banner-wrp {
+          background-image: none;
+        }
+        .banner-title {
+          margin: 0 auto;
+        }
+      }
+      
+      @media (max-width: 375px) {
+        .page-header {
+          padding: 0 16px;
+          position: relative;
+        }
+        .account-btn,
+        .cart-btn-link {
+          visibility: hidden;
+        }
+        .menu-btn {
+          position: absolute;
+          top: 20px;
+          right: 16px;
+        }
+        .banner {
+          min-height: 363px;
+          margin: 0 0 64px 0;
+        }
+        .banner-title {
+          max-width: 236px;
+          text-align: center;
+          font-size: 38px;
+          line-height: 45.6px;
+        }
+        .banner-subtitle {
+          max-width: 236px;
+          font-size: 20px;
+          line-height: 24px;
+        }
+        .banner-title::before {
+          height: 61px;
+        }
+        .categories .center-block {
+          display: flex;
+        }
+        .categories-item {
+          max-width: 343px;
+          min-height: 247px;
+          margin: 0 auto  32px auto;
+        }
+        .categories-item:last-child {
+          min-height: 111px;
+        }
+        .categories {
+          margin: 0 0 64px 0;
+        }
+        .products-txt {
+          margin: 0 0 64px 0;
+        }
+        .products-list {
+          margin: 0 0 25px 0;
+          padding: 0 8px;
+          box-sizing: border-box;
+        }
+        .products-item {
+          max-width: 358px;
+          margin: 0 auto 15.6px auto;
+        }
+    }
+}
